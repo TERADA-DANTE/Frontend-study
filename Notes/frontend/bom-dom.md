@@ -2,7 +2,7 @@
 
 ## BOM (Browser Object Model)
 
-BOM は**Browser の枠、フレームをプログラミング敵に Control できるようにしてくれる Object Model**。BOM を通して Browser の新しいタブを開いたり、他の Page に移動したりなどの機能を実装できる。 Global object として `window`があり、 その下に `location` , `navigator` , `document` , `screen` , `history`が含まれている。
+BOM は**Browser の枠、フレームをプログラミング的に Control できるようにしてくれる Object Model**。BOM を通して Browser の新しいタブを開いたり、他の Page に移動したりなどの機能を実装できる。 Global object として `window`があり、 その下に `location` , `navigator` , `document` , `screen` , `history`が含まれている。
 
 <img src="../../images/frontend/bom.jpg">
 
@@ -11,7 +11,7 @@ BOM は**Browser の枠、フレームをプログラミング敵に Control で
 
 ## DOM (Document Object Model)
 
-**Web Page をプログラミング敵に Control できるようにしてくれる Object Model**。 最上位 Interface として Node があり、これは下記のような構造となっている。
+**Web Page をプログラミング的に Control できるようにしてくれる Object Model**。 最上位 Interface として Node があり、これは下記のような構造となっている。
 
 <img src="../../images/frontend/dom.png">
 
