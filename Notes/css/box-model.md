@@ -4,7 +4,7 @@
 	<img src="../../images/css/box model.png">  
 </p>
 
-Box Model とは**HTML 上の要素は視覚的な目的として全ての要素を四角いボックス**として考えることである。Box はしたのような Area をもっている。
+Box Model とは**HTML 上の要素は視覚的な目的として全ての要素を四角いボックス**として考えることである。Box は下記のような Area をもっている。
 
 -   **Content Area** : コンテンツ、Text や Image、Video など要素の実際の内容を含めている。
 -   **Padding Area** : 内側の枠(Padding Edge)が囲んでいる Area。 Content Area の外から要素の内側の余白までを示す。
