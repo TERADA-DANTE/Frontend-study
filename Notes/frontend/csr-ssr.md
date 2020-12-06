@@ -48,7 +48,7 @@ CRS では Browser が Server に HTML と Javascript file を Request し、Loa
 
 [Image from](https://medium.com/@adamzerner/client-side-rendering-vs-server-side-rendering-a32d2cf3bfcc)
 
-SSR では Browser が Page を Request するたびに該当 Page に関する HTML、CSS、Javascipt file および data をもらい rendering する。
+SSR では Browser が Page を Request するたびに該当 Page に関する HTML、CSS、Javascipt File および data をもらい Rendering する。
 
 ### :+1: 長所
 
