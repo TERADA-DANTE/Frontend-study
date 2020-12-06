@@ -53,8 +53,8 @@
 
 ## :fire: Javascript
 
-<!--
 -   [Ajax](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/ajax.md)
+<!--
 -   [이벤트 위임 (Event Delegation)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-delegation.md)
 -   [실행 컨텍스트 (Execution Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/execution-context.md)
 -   [스코프 (Scope)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/scope.md)
