@@ -138,7 +138,7 @@ Module a は上のようになっている。そして`define()`を使って定�
 上で述べたように Module の実装方式が CommonJS と AMD と分かれるため、それを統一しようとしたのが UMD である。[公式 UMD](https://github.com/umdjs/umd/blob/master/templates/returnExports.js)をみるとしたのようになっている
 
 ```javascript
-;(function (root, factory) {
+(function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define([], factory)
