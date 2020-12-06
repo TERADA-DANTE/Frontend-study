@@ -50,9 +50,9 @@ div {
 Javascript
 
 ```javascript
-document.querySelector('div').addEventListener('click', () => {
-    console.log('Click div')
-})
+document
+    .querySelector('div')
+    .addEventListener('click', () => console.log('Click div'))
 ```
 
 <img src="../../images/frontend/rendering.png">
