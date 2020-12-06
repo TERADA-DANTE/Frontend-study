@@ -1,6 +1,6 @@
 # Same Origin Policy
 
-Same Origin Policy とはある文書または Script が他の **Protocol、Port、Host** もある Resource を使用することを制限する Policy。
+Same Origin Policy とはある文書または Script が他の **Protocol、Port、Host** にある Resource を使用することを制限する Policy。
 
 下記にてその例を述べる。
 
@@ -12,9 +12,9 @@ http://website.com/ex/ex.html
 | :------------------------------: | :------------------: |
 |      http://website.com/ex/      |          ✅          |
 |     http://website.com/ex1/      |          ✅          |
-| http://website.com:81/ex/ex.html |   ❌、 Port の違い   |
-|     http://wwebsite.com/ex/      |   ❌、 Host の違い   |
-|  https://website.com/ex/ex.html  | ❌、 Protocol の違い |
+| http://website.com:81/ex/ex.html |   ❌ Port の違い   |
+|     http://wwebsite.com/ex/      |   ❌ Host の違い   |
+|  https://website.com/ex/ex.html  | ❌ Protocol の違い |
 
 上のように Host、Port、Protocol、いずれ一つも違う場合 Same Origin Policy の対象となり Request に失敗する。
 
