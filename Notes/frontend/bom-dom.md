@@ -36,6 +36,7 @@ HTML
 ```
 
 DOM Tree
+
 <img src="../../images/frontend/dom2.png">
 
 上は[Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/) を利用して DOM Tree を実現したもの。Element 以外にも Text、Comment まで Node に含まれていることがわかる。この DOM を Control するためには `getElementsById` , `querySelector` , `firstElementChild` など Browser が提供する DOM API を使う必要がある。
