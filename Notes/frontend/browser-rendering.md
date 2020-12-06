@@ -1,7 +1,7 @@
 # Browser の Rendering の原理
 
 Browser が画面に現れる要素を Rendering する時は Webkit、Gecko など**Rendering Engine**を使用する。
-Rendering Engine が HTML、CSS、Javascript を Rendering する時は**CRP(Critical Rendering Path)**という Process を使用し、これは下記の 6 段階で整理できる。
+Rendering Engine が HTML、CSS、Javascript を Rendering する時は**CRP(Critical Rendering Path)** という Process を使用し、これは下記の 6 段階で整理できる。
 
 1. **HTML Parsing の後、DOM(Document Object Model) Tree 構築**
 2. **CSS Parcing の後, CSSOM(CSS Object Model) TREE 構築**
