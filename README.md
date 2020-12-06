@@ -4,13 +4,13 @@
 
 ## 目次
 
--   [紹介](#tada-紹介)
--   [Frontend 全般](#computer-Frontend-全般)
--   [HTML](#page_with_curl-html)
--   [CSS](#lipstick-css)
--   [Javascript](#fire-javascript)
--   [Network](#chart_with_upwards_trend-Network)
--   [Security](#lock-Security)
+1.  [紹介](#tada-紹介)
+2.  [Frontend 全般](#computer-Frontend-全般)
+3.  [HTML](#page_with_curl-html)
+4.  [CSS](#lipstick-css)
+5.  [Javascript](#fire-javascript)
+6.  [Network](#chart_with_upwards_trend-Network)
+7.  [Security](#lock-Security)
 
 ## :tada: 紹介
 
