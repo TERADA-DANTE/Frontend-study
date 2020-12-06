@@ -16,6 +16,8 @@ Rendering Engine が HTML、CSS、Javascript を Rendering する時は**CRP(Cri
 
 実際に Chrome Dev tool を使用し、下記の Code の Rendering を分析する。
 
+HTML
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -32,6 +34,8 @@ Rendering Engine が HTML、CSS、Javascript を Rendering する時は**CRP(Cri
 </html>
 ```
 
+CSS
+
 ```css
 body {
     background-color: red;
@@ -42,6 +46,8 @@ div {
     background-color: blue;
 }
 ```
+
+Javascript
 
 ```javascript
 document.querySelector('div').addEventListener('click', () => {
