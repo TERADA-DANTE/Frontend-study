@@ -31,6 +31,13 @@
 
 ## :page_with_curl: HTML
 
+-   [DOCTYPE](https://github.com/TERADA-DANTE/Fronted-study/blob/master/Notes/html/doctype.md)
+<!-- * [표준모드와 호환모드](https://github.com/TERADA-DANTE/Fronted-study/blob/master/Notes/html/standard-quirks.md)
+-   [data- 속성](https://github.com/TERADA-DANTE/Fronted-study/blob/master/Notes/html/data.md)
+-   [local storage vs session storage vs cookie](https://github.com/TERADA-DANTE/Fronted-study/blob/master/Notes/html/web-storage-api.md)
+-   [script vs script async vs script defer](https://github.com/TERADA-DANTE/Fronted-study/blob/master/Notes/html/script-tag-type.md)
+-   [시맨틱 마크업](https://github.com/TERADA-DANTE/Fronted-study/blob/master/Notes/html/semantic.md) -->
+
 ## :lipstick: CSS
 
 ## :fire: Javascript
