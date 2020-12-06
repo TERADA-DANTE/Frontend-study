@@ -4,8 +4,11 @@
 
 Module とは**いくつかの機能をする Code が集まっている一つの File**のこと。下記のような目的、利点で使われる。
 
-1. **維持、補修** : 数多い機能が Module かされていると各機能の依存関係が低い。ゆえ、機能の改善、修正、補修の時に便利。 2.**Name space** : Javascript で Global variable は Global space を持つため、Code が長ければ長いほど重なる Name space が増える。しかし、Module として分離することで Module だけの Name Space となるため、この問題を解決できる。
-2. **再使用性** : 必要な時 Code を繰り返すことなく、呼び出しすることができる。
+1. **維持、補修** : 数多い機能が Module 化されていると各機能の依存関係が低い。ゆえ、機能の改善、補修が便利である。
+
+2.**Name space** : Javascript で Global variable は Global space を持つため、Code が長ければ長いほど重なる Name space が増える。しかし、Module は Module だけの Name Space を持つため、この問題を解決できる。
+
+3. **再使用性** : 必要な時 Code を繰り返し作成することなく、呼び出しすることができる。
 
 このような長所を生かすために Module の概念が登場し、Javascript 内では Module を開発するためのあらゆるトライがあった。CommonJS、AMD、UMD そして ES6 がその例である。これらの特徴と使用方法を下記にて述べる。
 
@@ -13,11 +16,13 @@ Module とは**いくつかの機能をする Code が集まっている一つ�
 
 ## CommonJS
 
-Javascript は本来 Browser での言語であった。自然とこれを克服し、Server side、Desktop App にて支援するための努力があった。この努力をしたグループが CommonJS であり、これは Javascript が一般的な言語として使われるためのスペックを定義している。CommonJS が Javascript を一般的な言語化するためには必然的に Module 化の概念が必要だった。それが下記にて説明する CommonJS 式の Module 化である。
+Javascript は本来 Browser での言語であった。自然とこれを克服し、Server side、Desktop App にて使うための努力があった。
+
+CommonJS は Javascript が一般的な言語として使われるために Module の概念を生み出した。下記にて CommonJS 式の Module 化を述べる。
 
 他の Module を使う時は**require**、Module を該当 Scope の外に送る時は**module.exports**を使う方式。Node.js では現在この方式を使っている。
 
-Hello world を出力する関数を持つ Module を`a.js`とする。そして`b.js`が Module から該当関数を使う場合は以下の通りである。
+Hello world を出力する関数を持つ Module を`a.js`とする。`b.js`は Module からの関数を使う。
 
 -   `a.js`
 
@@ -38,7 +43,7 @@ const func = require('./a.js') // 同じDir内を仮定
 func.printHelloWorld()
 ```
 
-ここで `module.exports` の `module` は該当 Module の情報をもっている Object である。これは Reserved word(予約語)である。その中に `id` , `path` , `parent` などの Property があり、肝心な`exports` object を持っている。
+ここで `module.exports` の `module` は該当 Module の情報をもっている Object である。これは Reserved word(予約語)であるため注意しておくべき。`Module`の中に `id` , `path` , `parent` などの Property があり、肝心な`exports` object をがある。
 
 ### exports vs module.exports
 
@@ -65,16 +70,18 @@ module.exports = { printHelloWorld }
 ```
 
 それではなぜこのように 2 種類の方法があるのだろう？
-これは`exports`がいつも`module.exports`を参照することに注目する必要がある。`exports`を使うことで直接`module.exports`を修正しなくてもいいためである。`exports`を使って新しい関数、値を追加したり、一部分だけ修正することができる。
+これは`exports`がいつも`module.exports`を参照することに注目する必要がある。`exports`を使うことで直接`module.exports`を修正しなくてもいい。`exports`を使って新しい関数、値を追加したり、一部分だけ修正することができる。
 
 🤔 CSS の Override と似たような部分がある。。。
 <br>
 
 ## AMD(Asynchronous Module Definition)
 
-CommonJS グループから派生した非同期 Module に関しての標準を標ぼうするグループが AMD。CommonJS が Server side に特化したというなら AMD は Browser side でより大きい効果を発揮する。
+CommonJS グループから派生した非同期 Module に関しての標準を標榜するグループが AMD。AMD は CommonJS より Browser side での Module に特化している。
 
-Browser は数多い Module が全部 Loading されるまで待つことができない。AMD は非同期処理からその弱点を克服した。この方式では`define()` と `require()`を使い、AMD のスペックを実装した Module Loader は RequireJS である。下記にて簡単な例をあげる。
+Browser は数多い Module が全部 Loading されるまで待つことができない。AMD は非同期処理からその弱点を克服した。
+
+AMD のスペックを実装した Module Loader は RequireJS がある。下記にて簡単な例をあげる。
 
 -   `index.html`
 
@@ -122,13 +129,13 @@ define(() => {
 })
 ```
 
-Module a は上のようになっている。そして`define()`を使って定義される。`require()`で依存関係を設定したのように Callback が実行されるまえに Loading する Module をここでも決めることができる
+Module a は上のようになっている。そして`define()`を使って定義される。`require()`で依存関係を設定したのように、 Callback が実行されるまえに Loading する Module をここでも決めることができる
 
 <br>
 
 ## UMD(Universal Module Definition)
 
-上でみたように Module の実装方式が CommonJS と AMD と分かれるため、それを統一しようとしたのが UMD である。[公式 UMD](https://github.com/umdjs/umd/blob/master/templates/returnExports.js)をみるとしたのようになっている
+上で述べたように Module の実装方式が CommonJS と AMD と分かれるため、それを統一しようとしたのが UMD である。[公式 UMD](https://github.com/umdjs/umd/blob/master/templates/returnExports.js)をみるとしたのようになっている
 
 ```javascript
 ;(function (root, factory) {
@@ -193,7 +200,8 @@ import { B } from 'moduleB'
 ここで注目のポイントは **named export** と **default export** にある。
 
 1. **default export**
-   **default export**は一回のみ使える。ゆえ、どんな名前で import してもよい。
+
+    **default export**は一回のみ使える。ゆえ、どんな名前で import してもよい。
 
 export
 
@@ -215,7 +223,8 @@ import NewNameAuth from './moduleA'
 ❌ `var`, `const`, `let` を`export default`の後につけることはできない。
 
 2. **named export**
-   File 内でいくつかの変数、クラスなどを export することができる。ただし、import の際に同じ名前が必要となる
+
+    File 内でいくつかの変数、クラスなどを export することができる。ただし、import の際に同じ名前が必要となる
 
 export
 
