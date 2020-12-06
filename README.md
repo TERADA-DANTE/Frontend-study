@@ -22,12 +22,12 @@
 
 ## :computer: Frontend 全般
 
--   [CSR (Client Side Rendering) vs SSR(Server Side Rendering)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/csr-ssr.md)
--   [Browser の Rendering 過程](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/browser-rendering.md)
--   [Javascript engine が Code を実行する過程](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/engine.md)
--   [BOM と DOM](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/bom-dom.md)
--   [Module bundler と Transpiler](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/bundler-transpiler.md)
--   [CI と CD](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/ci-cd.md)
+-   [CSR (Client Side Rendering) vs SSR(Server Side Rendering)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/frontend/csr-ssr.md)
+-   [Browser の Rendering 過程](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/frontend/browser-rendering.md)
+-   [Javascript engine が Code を実行する過程](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/frontend/engine.md)
+-   [BOM と DOM](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/frontend/bom-dom.md)
+-   [Module bundler と Transpiler](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/frontend/bundler-transpiler.md)
+-   [CI と CD](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/frontend/ci-cd.md)
 
 ## :page_with_curl: HTML
 
@@ -36,28 +36,28 @@
 ## :fire: Javascript
 
 <!--
--   [Ajax](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/ajax.md)
--   [이벤트 위임 (Event Delegation)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/event-delegation.md)
--   [실행 컨텍스트 (Execution Context)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/execution-context.md)
--   [스코프 (Scope)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/scope.md)
--   [호이스팅 (Hoisting)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/hoisting.md)
--   [클로저 (Closure)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/closure.md)
--   [네이티브 객체 vs 호스트 객체](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/native-host.md)
--   [this의 바인딩](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/this.md)
--   [var vs let vs const](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/var-let-const.md)
--   [IIFE (Immediately-Invoked Function Expression)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/iife.md) -->
+-   [Ajax](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/ajax.md)
+-   [이벤트 위임 (Event Delegation)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-delegation.md)
+-   [실행 컨텍스트 (Execution Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/execution-context.md)
+-   [스코프 (Scope)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/scope.md)
+-   [호이스팅 (Hoisting)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/hoisting.md)
+-   [클로저 (Closure)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/closure.md)
+-   [네이티브 객체 vs 호스트 객체](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/native-host.md)
+-   [this의 바인딩](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/this.md)
+-   [var vs let vs const](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/var-let-const.md)
+-   [IIFE (Immediately-Invoked Function Expression)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/iife.md) -->
 
--   [Module system: CommonJS, AMD, UMD, ES6](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/module.md)
-<!-- -   [콜 스택(Call stack)과 힙(Heap)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/stack-heap.md)
--   [이벤트 루프 (Event loop)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/event-loop.md)
--   [프로토타입 (Prototype)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/prototype.md)
--   [== vs ===](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/identity-equal.md)
--   [엄격 모드 (Strict mode)](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/strict-mode.md)
--   [new의 동작방식](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/new.md)
--   [ES6 (2015) 의 특징들](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/es6.md)
--   [ES7 (ES2016) ~ ES8 (ES2017) 의 특징들](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/es7-es8.md)
--   [ES9 (ES2018) ~ ES10 (ES2019) 의 특징들](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/es9-es10.md)
--   [ES11 (ES2020) 의 특징들](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/javascript/es11.md) -->
+-   [Module system: CommonJS, AMD, UMD, ES6](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/module.md)
+<!-- -   [콜 스택(Call stack)과 힙(Heap)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/stack-heap.md)
+-   [이벤트 루프 (Event loop)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-loop.md)
+-   [프로토타입 (Prototype)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/prototype.md)
+-   [== vs ===](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/identity-equal.md)
+-   [엄격 모드 (Strict mode)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/strict-mode.md)
+-   [new의 동작방식](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/new.md)
+-   [ES6 (2015) 의 특징들](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es6.md)
+-   [ES7 (ES2016) ~ ES8 (ES2017) 의 특징들](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es7-es8.md)
+-   [ES9 (ES2018) ~ ES10 (ES2019) 의 특징들](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es9-es10.md)
+-   [ES11 (ES2020) 의 특징들](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es11.md) -->
 
 ## :chart_with_upwards_trend: Network
 
