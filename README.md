@@ -21,5 +21,5 @@
 -   [Browser の Rendering 過程](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/browser-rendering.md)
 -   [Javascript engine が Code を実行する過程](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/engine.md)
 -   [BOM と DOM](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/bom-dom.md)
--   [Module bundler と Tranpiler](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/bundler-transpiler.md)
+-   [Module bundler と Transpiler](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/bundler-transpiler.md)
 -   [CI と CD](https://github.com/TERADA-DANTE/frontend-study/blob/master/Notes/frontend/ci-cd.md)
