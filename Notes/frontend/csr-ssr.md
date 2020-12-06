@@ -31,10 +31,13 @@ CRS では Browser が Server に HTML と Javascript file を Request し、Loa
 ### :-1: 短所
 
 -   最初に全 Script File の Loading を待たないといけない。
+
     ✅ Resource をチャンク(Chunk)単位に分離し、Request する時にダウンロードさせる方法で Loading 速度を向上することはできる。だが、根本的な解決ではない。
 
 -   Search Engine Bot の Crolling において弱点がある。
+
     ✅ Google Bot の場合、Javascript を支援するため問題ない。
+
     ❌ 他社の Search Engine は Javascript を支援しない場合が多々ある。
 
 <br>
