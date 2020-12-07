@@ -50,7 +50,7 @@ Code の意図は 1 から 4 まで間隔をおいて出力することだが 5 
 ```javascript
 function func() {
     for (var i = 1; i < 5; i++) {
-        ;(function (j) {
+        (function (j) {
             setTimeout(function () {
                 console.log(j)
             }, j * 500)
