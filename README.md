@@ -76,8 +76,9 @@
 -   [スコープ (Scope)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/scope.md)
 
 -   [ホイスティング (Hoisting)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/hoisting.md)
+
+-   [クロージャ (Closure)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/closure.md)
 <!--
--   [클로저 (Closure)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/closure.md)
 -   [네이티브 객체 vs 호스트 객체](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/native-host.md)
 -   [this의 바인딩](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/this.md)
 -   [var vs let vs const](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/var-let-const.md)
