@@ -21,9 +21,9 @@ IIFE は訳すと即時実行関数式。 即ち、2 個の条件がつく。
 (function () {
     console.log('IIFE')
 })()
-(function () {
+((function () {
     console.log('IIFE')
-})()
+})())
 ```
 
 **単純にスタイルの違い** として見なされる 2 種類の表現と Arrow 関数がある。ES2015(ES6)。
@@ -35,7 +35,7 @@ IIFE は訳すと即時実行関数式。 即ち、2 個の条件がつく。
 ただ、この場合次のような表現は不可
 
 ```javascript
-() => console.log('IIFE')()
+(() => console.log('IIFE')())
 ```
 
 <br>
