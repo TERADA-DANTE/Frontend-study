@@ -53,9 +53,10 @@
 
 -   [BFC (Block Formatting Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/bfc.md)
 
--   [z-indexの原理](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/z-index.md)
-<!--
+-   [z-index の原理](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/z-index.md)
+
 -   [block vs inline vs inline-block](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/block-inline-inline-block.md)
+<!--
 -   [가로/세로 가운데 정렬하기](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/center.md)
 -   [Reset.css vs Normalize.css](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/reset-normalize.md)
 -   [그리드 시스템](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/grid.md)
