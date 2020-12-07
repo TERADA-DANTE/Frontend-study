@@ -82,8 +82,9 @@
 -   [Native object vs Host object](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/native-host.md)
 
 -   [this binding](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/this.md)
-<!--
+
 -   [var vs let vs const](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/var-let-const.md)
+<!--
 -   [IIFE (Immediately-Invoked Function Expression)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/iife.md) -->
 
 -   [Module system: CommonJS, AMD, UMD, ES6](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/module.md)
