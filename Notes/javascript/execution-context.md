@@ -14,7 +14,7 @@ Javascript Engine が Script を実行する前に**Global Execution Context, GE
 
 ## Execution Context Stack
 
-Execution Context が作られるとこれは**コールスタック(Call Stack)**と言われる Execution Context Stack に積み重なる。GEC は Code を実行するまえに積み重なり、全 Code を実行するとなくなる。FEC は呼び出しの時に積み重なり、呼び出しが終わると削除される。下記にて説明を続ける。
+Execution Context が作られるとこれは **コールスタック(Call Stack)** と言われる Execution Context Stack に積み重なる。GEC は Code を実行するまえに積み重なり、全 Code を実行するとなくなる。FEC は呼び出しの時に積み重なり、呼び出しが終わると削除される。下記にて説明を続ける。
 
 ```javascript
 function func() {
