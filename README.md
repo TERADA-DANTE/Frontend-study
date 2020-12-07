@@ -62,8 +62,9 @@
 -   [AJAX](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/ajax.md)
 
 -   [イベント委任 (Event Delegation)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-delegation.md)
+
+-   [実行コンテキスト(Execution Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/execution-context.md)
 <!--
--   [실행 컨텍스트 (Execution Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/execution-context.md)
 -   [스코프 (Scope)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/scope.md)
 -   [호이스팅 (Hoisting)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/hoisting.md)
 -   [클로저 (Closure)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/closure.md)
