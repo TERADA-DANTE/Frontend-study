@@ -6,7 +6,7 @@ IIFE は訳すと即時実行関数式。 即ち、2 個の条件がつく。
 -   **表現式である。宣言ではない**
 
 ```javascript
-;(function () {
+(function () {
     console.log('IIFE')
 })()
 ```
@@ -18,10 +18,10 @@ IIFE は訳すと即時実行関数式。 即ち、2 個の条件がつく。
 ## 2 種類形態と Arrow 関数
 
 ```javascript
-;(function () {
+(function () {
     console.log('IIFE')
 })()
-;(function () {
+(function () {
     console.log('IIFE')
 })()
 ```
@@ -29,13 +29,13 @@ IIFE は訳すと即時実行関数式。 即ち、2 個の条件がつく。
 **単純にスタイルの違い** として見なされる 2 種類の表現と Arrow 関数がある。ES2015(ES6)。
 
 ```javascript
-;(() => console.log('IIFE'))()
+(() => console.log('IIFE'))()
 ```
 
 ただ、この場合次のような表現は不可
 
 ```javascript
-;() => console.log('IIFE')()
+() => console.log('IIFE')()
 ```
 
 <br>
@@ -68,8 +68,8 @@ IIFE の中の匿名関数は Closure となり、変数`count`は private Data 
 同じ Global variable を使う 2 つの Library を使う時、Bug を防ぐために使うことができる。jQuery の場合 `$` という Global variable をもっているが、他の Library が`$`を使う時は次のように問題を解決できる。
 
 ```javascript
-window.$ = funciton(){};
-(function($){...})(jQuery);
+window.$ = funciton(){}
+(function($){...})(jQuery)
 ```
 
 ### Minification を使う Optimization
@@ -77,13 +77,13 @@ window.$ = funciton(){};
 [UglifyJS](https://github.com/mishoo/UglifyJS2) は Javascript の最小化を使って最適化をする。ここには変数名などを短くするのも含まれている。
 
 ```javascript
-(function(window, document, undefined) {...})(window, document);
+(function(window, document, undefined) {...})(window, document)
 ```
 
 上を下のようにし、File の Size を圧縮できる。
 
 ```javascript
-(function(w, d, u) {...})(window, document);
+(function(w, d, u) {...})(window, document)
 ```
 
 <br>
