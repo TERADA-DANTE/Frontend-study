@@ -54,8 +54,9 @@
 ## :fire: Javascript
 
 -   [AJAX](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/ajax.md)
+
+-   [イベント委任 (Event Delegation)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-delegation.md)
 <!--
--   [이벤트 위임 (Event Delegation)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-delegation.md)
 -   [실행 컨텍스트 (Execution Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/execution-context.md)
 -   [스코프 (Scope)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/scope.md)
 -   [호이스팅 (Hoisting)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/hoisting.md)
@@ -79,7 +80,7 @@
 
 ## :chart_with_upwards_trend: Network
 
--   [TCPと UDP](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/tcp-udp.md)
+-   [TCP と UDP](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/tcp-udp.md)
 <!--
 -   [HTTP](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/http.md)
 -   [HTTPS](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/https.md)
