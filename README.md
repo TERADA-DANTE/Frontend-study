@@ -32,8 +32,10 @@
 ## :page_with_curl: HTML
 
 -   [DOCTYPE](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/doctype.md)
-<!-- * [표준모드와 호환모드](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/standard-quirks.md)
--   [data- 속성](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/data.md)
+
+-   [標準モードと互換モード](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/standard-quirks.md)
+
+<!---   [data- 속성](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/data.md)
 -   [local storage vs session storage vs cookie](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/web-storage-api.md)
 -   [script vs script async vs script defer](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/script-tag-type.md)
 -   [시맨틱 마크업](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/semantic.md) -->
@@ -42,8 +44,9 @@
 
 -   [Box Model](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/box-model.md)
 
-*   [floatを解除する方法](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/float-clear.md)
+-   [float を解除する方法](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/float-clear.md)
 <!--
+
 
 -   [마진겹침 현상](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/margin-collapsing.md)
 -   [BFC (Block Formatting Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/bfc.md)
