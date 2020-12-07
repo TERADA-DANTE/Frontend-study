@@ -40,8 +40,8 @@
 -   [local storage vs session storage vs cookie](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/web-storage-api.md)
 
 -   [script vs script async vs script defer](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/script-tag-type.md)
-<!--
--   [시맨틱 마크업](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/semantic.md) -->
+
+-   [Semantic markup](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/html/semantic.md)
 
 ## :lipstick: CSS
 
