@@ -41,7 +41,10 @@
 ## :lipstick: CSS
 
 -   [Box Model](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/box-model.md)
-<!-- * [float를 해제하는 방법들](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/float-clear.md)
+
+*   [floatを解除する方法](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/float-clear.md)
+<!--
+
 -   [마진겹침 현상](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/margin-collapsing.md)
 -   [BFC (Block Formatting Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/bfc.md)
 -   [z-index의 동작방식](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/z-index.md)
