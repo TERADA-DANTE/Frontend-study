@@ -62,8 +62,8 @@
 -   [Reset.css vs Normalize.css](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/reset-normalize.md)
 
 -   [Grid system](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/grid.md)
-<!--
--   [img 아래쪽 공백 제거](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/img-space.md) -->
+
+-   [img の下の空白](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/css/img-space.md)
 
 ## :fire: Javascript
 
