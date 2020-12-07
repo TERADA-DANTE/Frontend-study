@@ -67,8 +67,9 @@
 -   [実行コンテキスト(Execution Context)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/execution-context.md)
 
 -   [スコープ (Scope)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/scope.md)
+
+-   [ホイスティング (Hoisting)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/hoisting.md)
 <!--
--   [호이스팅 (Hoisting)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/hoisting.md)
 -   [클로저 (Closure)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/closure.md)
 -   [네이티브 객체 vs 호스트 객체](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/native-host.md)
 -   [this의 바인딩](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/this.md)
