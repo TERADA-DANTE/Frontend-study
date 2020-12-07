@@ -25,7 +25,8 @@ func()
 ```
 
 最初に Code を実行する前に GEC が積み重なり、Code を実行すると Console には`グローバル 実行コンテキスト`が出力される。その後、`func()`を呼び出すと該当 FEC が作られ、積み重なり、Console には`関数実行コンテキスト`が出力される。以降 FEC がスタックから削除され、全 Code の実行が終わったら GEC がスタックから削除される。
-[GIF](https://miro.medium.com/max/1100/1*dUl6qPEaDJJTXWythQsEtQ.gif)
+
+![GIF](https://miro.medium.com/max/1100/1*dUl6qPEaDJJTXWythQsEtQ.gif)
 
 <br>
 
@@ -234,7 +235,8 @@ GEC {
 ```
 
 全 Code が実行されたため、GEC もスタックから削除されプログラムが終了する。
-[GIF](https://miro.medium.com/max/1100/1*SBP65hdVDW5j0LuVryTiXw.gif)
+
+![GIF](https://miro.medium.com/max/1100/1*SBP65hdVDW5j0LuVryTiXw.gif)
 
 <br>
 
