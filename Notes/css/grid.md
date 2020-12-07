@@ -61,42 +61,18 @@ flexbox や grid の前に使われる方法で`float` 属性を使い実装す�
     margin-right: 0;
 }
 
-.col-1-12 {
-    width: calc(100% / (12 / 1) - var(--gutter) * 11 / 12);
-}
-.col-2-12 {
-    width: calc(100% / (12 / 2) - var(--gutter) * 10 / 12);
-}
-.col-3-12 {
-    width: calc(100% / (12 / 3) - var(--gutter) * 9 / 12);
-}
-.col-4-12 {
-    width: calc(100% / (12 / 4) - var(--gutter) * 8 / 12);
-}
-.col-5-12 {
-    width: calc(100% / (12 / 5) - var(--gutter) * 7 / 12);
-}
-.col-6-12 {
-    width: calc(100% / (12 / 6) - var(--gutter) * 6 / 12);
-}
-.col-7-12 {
-    width: calc(100% / (12 / 7) - var(--gutter) * 5 / 12);
-}
-.col-8-12 {
-    width: calc(100% / (12 / 8) - var(--gutter) * 4 / 12);
-}
-.col-9-12 {
-    width: calc(100% / (12 / 9) - var(--gutter) * 3 / 12);
-}
-.col-10-12 {
-    width: calc(100% / (12 / 10) - var(--gutter) * 2 / 12);
-}
-.col-11-12 {
-    width: calc(100% / (12 / 11) - var(--gutter) * 1 / 12);
-}
-.col-12-12 {
-    width: calc(100% / (12 / 12) - var(--gutter) * 0 / 12);
-}
+.col-1-12 { width: calc(100%/(12/1) - var(--gutter)*11/12); }
+.col-2-12 { width: calc(100%/(12/2) - var(--gutter)*10/12); }
+.col-3-12 { width: calc(100%/(12/3) - var(--gutter)*9/12); }
+.col-4-12 { width: calc(100%/(12/4) - var(--gutter)*8/12); }
+.col-5-12 { width: calc(100%/(12/5) - var(--gutter)*7/12); }
+.col-6-12 { width: calc(100%/(12/6) - var(--gutter)*6/12); }
+.col-7-12 { width: calc(100%/(12/7) - var(--gutter)*5/12); }
+.col-8-12 { width: calc(100%/(12/8) - var(--gutter)*4/12); }
+.col-9-12 { width: calc(100%/(12/9) - var(--gutter)*3/12); }
+.col-10-12 { width: calc(100%/(12/10) - var(--gutter)*2/12); }
+.col-11-12 { width: calc(100%/(12/11) - var(--gutter)*1/12); }
+.col-12-12 { width: calc(100%/(12/12) - var(--gutter)*0/12); }
 
 .col:nth-child(even) {
     background-color: blue;
