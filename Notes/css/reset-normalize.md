@@ -6,7 +6,7 @@ Chrome, Safari, IE など各 Browser は HTML 要素の基本的な Style を持
 
 ## Reset.css
 
-**全 Browser の内蔵 Style を無くす方法**。無の状態から始まり、 `h1` ~ `h6` , `p` , `em` など各タグに適用されている Style をなくす。一番有名なのは [これ](https://github.com/shannonmoeller/reset-css)である。初期化の後、各自の方式に合わせて使用することができる。
+**全 Browser の内蔵 Style を無くす方法**。無の状態から始まり、 `h1` ~ `h6` , `p` , `em` など各タグに適用されている Style をなくす。一番有名なのは [これ](https://github.com/shannonmoeller/reset-css)。初期化の後、各自の方式に合わせて使用することができる。
 
 <br>
 
