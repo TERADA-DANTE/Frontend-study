@@ -65,8 +65,9 @@
 -   [即時実行関数式 IIFE (Immediately-Invoked Function Expression)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/iife.md)
 -   [Module system: CommonJS, AMD, UMD, ES6](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/module.md)
 -   [コールスタック(Call stack)とヒップ(Heap)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/stack-heap.md)
+
+-   [イベントループ (Event loop)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-loop.md)
 <!--
--   [이벤트 루프 (Event loop)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-loop.md)
 -   [프로토타입 (Prototype)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/prototype.md)
 -   [== vs ===](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/identity-equal.md)
 -   [엄격 모드 (Strict mode)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/strict-mode.md)
