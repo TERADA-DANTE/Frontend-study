@@ -64,7 +64,8 @@
 -   [var vs let vs const](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/var-let-const.md)
 -   [即時実行関数式 IIFE (Immediately-Invoked Function Expression)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/iife.md)
 -   [Module system: CommonJS, AMD, UMD, ES6](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/module.md)
-<!-- -   [콜 스택(Call stack)과 힙(Heap)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/stack-heap.md)
+-   [コールスタック(Call stack)とヒップ(Heap)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/stack-heap.md)
+<!--
 -   [이벤트 루프 (Event loop)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/event-loop.md)
 -   [프로토타입 (Prototype)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/prototype.md)
 -   [== vs ===](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/identity-equal.md)
