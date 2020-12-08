@@ -15,6 +15,7 @@ Javascript 実行環境は 2 種類の Queue をもっている。これらは**
     -   Promise, MutationObserver
 
 イベントループは 2 個の Queue を監視していて、Callstack がからになると、Callback を持ち出し、実行する。ここで Microtask が Task より優先順位をもっている。
+
 ⚠ UI rendering が task の方においてある。つまり、Microtask が多い場合 Rendering が遅延される場合がある。
 
 <br>
