@@ -30,7 +30,7 @@ var bob = {
 
 ### クラス(Classes)
 
-ㅔプロトタイプ基盤の Object 志向パターン。継承、constructor、Instance、Method などを支援する。
+プロトタイプ基盤の Object 志向パターン。継承、constructor、Instance、Method などを支援する。
 
 ```javascript
 class Polygon {
