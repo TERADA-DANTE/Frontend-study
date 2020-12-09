@@ -84,7 +84,10 @@
 <!--
 -   [HTTPS](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/https.md)
 -   [URL과 URN을 포함하는 URI](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/uri.md)
+-->
 -   [REST API](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/rest-api.md)
+
+<!--
 -   [Cookie vs Session](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/cookie-session.md)
 -   [URL을 입력하고 벌어지는 일](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/type-url-process.md) -->
 
