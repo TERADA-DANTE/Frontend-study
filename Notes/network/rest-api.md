@@ -93,8 +93,6 @@ Request に対する Response の Status を明確に返すのも REST API の�
 
 <br>
 
-마지막으로 아래 그림을 보고 정리해보자.
-
 <img src="../../images/network/REST.png">
 
 <br>
