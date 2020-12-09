@@ -69,8 +69,7 @@
 -   [プロトタイプ (Prototype)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/prototype.md)
 -   [== vs ===](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/identity-equal.md)
 -   [Strict モード (Strict mode)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/strict-mode.md)
--   [newの原理](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/new.md)
-
+-   [new の原理](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/new.md)
 -   [ES6 (2015)の特徴](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es6.md)
 <!--
 -   [ES7 (ES2016) ~ ES8 (ES2017) 의 특징들](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es7-es8.md)
@@ -84,7 +83,7 @@
 <!--
 -   [HTTPS](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/https.md)
 -   [URL과 URN을 포함하는 URI](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/uri.md)
--->
+    -->
 -   [REST API](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/rest-api.md)
 
 <!--
