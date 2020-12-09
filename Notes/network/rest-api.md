@@ -97,11 +97,7 @@ Request に対する Response の Status を明確に返すのも REST API の�
 
 <br>
 
-## 참고
+## Reference
 
--   [REST API concepts and examples(유튜브)](https://www.youtube.com/watch?v=7YcW25PHnAA)
--   [REST API가 뭔가요?(유튜브)](https://www.youtube.com/watch?v=iOueE9AXDQQ)
--   [REST API 제대로 알고 사용하기](https://meetup.toast.com/posts/92)
--   [REST API의 이해와 설계-#1 개념 소개](https://bcho.tistory.com/953)
--   [REST 아키텍처를 훌륭하게 적용하기 위한 몇 가지 디자인 팁](https://spoqa.github.io/2012/02/27/rest-introduction.html)
+-   [REST API concepts and examples](https://www.youtube.com/watch?v=7YcW25PHnAA)
 -   [Why Should We Choose REST (Client-Server) Model to Develop Web Apps ?](https://medium.com/@audira98/why-should-we-choose-rest-client-server-model-to-develop-web-apps-c3bb2451b13a)
