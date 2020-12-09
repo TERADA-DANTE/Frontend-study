@@ -53,7 +53,7 @@ Response object は `json()` , `blob()` のような内蔵 Method で body を�
 -   最初読み込む Data の量を減らすことができる。Client に処理を任せることができる。
 -   Server の処理を待たずに非同期で Request することができる。
 
-### 단점
+### 短所
 
 -   支援しない Browser がある。
 -   Page の転換ないしに通信が行われるため、Security 問題がある恐れがある。
