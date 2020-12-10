@@ -80,8 +80,9 @@
 
 -   [TCP と UDP](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/tcp-udp.md)
 -   [HTTP](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/http.md)
-<!--
+
 -   [HTTPS](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/https.md)
+<!--
 -   [URL과 URN을 포함하는 URI](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/uri.md)
     -->
 -   [REST API](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/network/rest-api.md)
