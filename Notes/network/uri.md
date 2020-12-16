@@ -2,7 +2,7 @@
 
 ## URI(Uniform Resource Identifier)
 
-Uniform Resource Identifier を略した URI は**ネット上の Resource**を固有に識別できる識別子である。URI には位置を教えてくれる**URL(Uniform Resource Locator)**と全世界で固有な名前を意味する**URN(Uniform Resource Name)**が存在する。
+Uniform Resource Identifier を略した URI は **ネット上の Resource** を固有に識別できる識別子である。URI には位置を教えてくれる **URL(Uniform Resource Locator)** 全世界で固有な名前を意味する **URN(Uniform Resource Name)** が存在する。
 
 <img src="../../images/network/URI.png" width="400px">
 
