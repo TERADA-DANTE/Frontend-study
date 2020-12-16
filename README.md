@@ -71,7 +71,6 @@
 - [Strict モード (Strict mode)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/strict-mode.md)
 - [new の原理](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/new.md)
 - [ES6 (2015)の特徴](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es6.md)
-
 - [ES7 (ES2016) ~ ES8 (ES2017) の特徴](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es7-es8.md)
 <!--
 - [ES9 (ES2018) ~ ES10 (ES2019) 의 특징들](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es9-es10.md)
