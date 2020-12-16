@@ -27,7 +27,7 @@ const asyncIterator = function () {
 
 const iterator = asyncIterator()
 
-;(async function () {
+(async function () {
   await iterator.next().then(console.log) // { value: 3, done: false }
   await iterator.next().then(console.log) // { value: 2, done: false }
   await iterator.next().then(console.log) // { value: 1, done: false }
