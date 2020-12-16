@@ -72,10 +72,8 @@
 - [new の原理](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/new.md)
 - [ES6 (2015)の特徴](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es6.md)
 - [ES7 (ES2016) ~ ES8 (ES2017) の特徴](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es7-es8.md)
-
 - [ES9 (ES2018) ~ ES10 (ES2019) の特徴](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es9-es10.md)
-<!--
-- [ES11 (ES2020) 의 특징들](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es11.md) -->
+- [ES11 (ES2020) の特徴](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/javascript/es11.md)
 
 ## :chart_with_upwards_trend: Network
 
