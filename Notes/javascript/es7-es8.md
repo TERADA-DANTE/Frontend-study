@@ -9,10 +9,10 @@
 配列の中に元素が入っているかを確認する Method
 
 ```javascript
-;[1, 2, 3].includes(2) // true
-;[1, 2, NaN].includes(NaN) // true
-;[1, 2, 3].includes(2, 2) // false
-;[1, 2, 3].includes(3, 4) // index範囲外なので false
+[1, 2, 3].includes(2) // true
+[1, 2, NaN].includes(NaN) // true
+[1, 2, 3].includes(2, 2) // false
+[1, 2, 3].includes(3, 4) // index範囲外なので false
 ```
 
 ### Exponentiation
