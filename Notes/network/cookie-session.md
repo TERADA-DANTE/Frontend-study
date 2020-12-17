@@ -6,7 +6,7 @@ HTTP は Stateless な特徴を持っている Protocol である。つまり、
 
 ## Cookie
 
-Cookie とは Client の Browser に保存される小さな Data である。これは Server が Client の Request を識別するのに使われる。Cookie を使うことで User を識別することは簡単になるが、Client が Cookie を修正することも、Cookie が奪われることも可能なため、Security 面では不利である。Id,Password などの情報を保存するには使われないが、次のような物を識別するに使われる。
+Cookie とは Client の Browser に保存される小さな Data である。これは Server が Client の Request を識別するのに使われる。Cookie を使うことで User を識別することは簡単になるが、Client が Cookie を修正することも、Cookie が奪われることも可能なため、Security 面では不利である。Id, Password などの情報を保存するには使われないが、次のような物を識別するに使われる。
 
 - **Session ID**: Server に保存する大事な情報に対しての識別子、つまり、ID の ID
 - **個人化** : User のテーマなど
@@ -16,7 +16,7 @@ Cookie とは Client の Browser に保存される小さな Data である。�
 
 ## Session
 
-Session とは Browser が Server に接続されている間保存している Data である。User が Page に接続して Server に Request をすると、Server はその User を記憶し、識別する Session ID を`Set-Cookie` Header で ClientResponse する。Client は Cookie で Session ID を管理し、Request するたびに `Cookie` Header に Session ID を含めて送信するため、Server は Client を識別することができる。のような物を識別するに使われる。
+Session とは Browser が Server に接続されている間保存している Data である。User が Page に接続して Server に Request をすると、Server はその User を記憶し、識別する Session ID を`Set-Cookie` Header で Client に Response する。Client は Cookie で Session ID を管理し、Request するたびに `Cookie` Header に Session ID を含めて送信するため、Server は Client を識別することができる。次のような物を識別するに使われる。
 
 - **大切な情報** : User ID, User Password
 
