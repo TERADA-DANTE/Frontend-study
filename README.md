@@ -90,4 +90,3 @@
 
 - [CORS(Same Origin Policy)](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/security/sop.md)
 <!-- * [XSS와 CSRF](https://github.com/TERADA-DANTE/Frontend-study/blob/master/Notes/security/xss-csrf.md) -->
-
